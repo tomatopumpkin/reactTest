@@ -10,7 +10,6 @@ const Header = () => {
          <div>
             <Link to='/' className="logo">protfolio</Link>
          </div>
-
          <div className="navigation">
            <ul className="navigation-menu">
              <li className="sub-menu">
@@ -30,7 +29,6 @@ const Header = () => {
              </li>
            </ul>
          </div>
-
         </div>
       </header>
     )

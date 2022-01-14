@@ -1,0 +1,49 @@
+.header-content{
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+
+    &-title{
+        position: relative;
+        display: block;
+
+        h1{
+            color: blanchedalmond;
+            font-weight: 200;
+            font-size: 3rem;
+            letter-spacing: 1px; //ช่องไฟ
+
+        }
+    }
+    &-sub-title{
+        position: relative;
+        display: block;
+        padding-top: 12px;
+
+        span{
+            color: beige;
+            font-size: 30px;
+        }
+    }
+
+    &-text{
+        position: relative;
+        display: block;
+        // padding-top: 12px;
+
+        color: beige;
+        font-weight: 300;
+        font-size: 30px;
+
+        .Typewriter{
+            display: inline-block;
+            font-weight: 600;
+        }
+    }
+
+}
+
