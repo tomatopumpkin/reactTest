@@ -8,7 +8,7 @@ const Header = () => {
         <header className="fixed-top navbar-sticky bg-white border-bottom">
         <div className="container">
          <div>
-            <Link to='/' className="logo">protfolio</Link>
+            <Link to='/' className="logo">portfolio</Link>
          </div>
          <div className="navigation">
            <ul className="navigation-menu">
@@ -19,7 +19,7 @@ const Header = () => {
                <Link to={process.env.PUBLIC_URL + '/about'}>about</Link>
              </li>
              <li className="sub-menu">
-               <Link to={process.env.PUBLIC_URL + '/protfolio'}>protfolio</Link>
+               <Link to={process.env.PUBLIC_URL + '/portfolio'}>portfolio</Link>
              </li>
              <li className="sub-menu">
                <Link to={process.env.PUBLIC_URL + '/resume'}>resume</Link>

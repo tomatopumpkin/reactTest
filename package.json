@@ -1,5 +1,5 @@
 {
-  "name": "protfoliodemo",
+  "name": "portfoliodemo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,11 +9,16 @@
     "bootstrap": "^5.1.3",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
+    "react-animated-css": "^1.2.1",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^17.0.2",
     "react-parallax": "^3.3.0",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "reselect": "^4.1.5",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.3"
   },
