@@ -6,7 +6,7 @@ import './home.style.scss';
 
 const Homepage = () => {
     
-    const img = "https://i3.fpic.cc/file/img-b1/2022/01/14/IMG_2050.png"
+    const img = "https://i3.fpic.cc/file/img-b1/2022/01/14/mountains-4356017_1920.jpg"
 
     return (
         <div className='mt-5'>
