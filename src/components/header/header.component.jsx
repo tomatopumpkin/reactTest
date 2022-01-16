@@ -16,9 +16,6 @@ const Header = () => {
                <Link to={process.env.PUBLIC_URL + '/'}>home</Link>
              </li>
              <li className="sub-menu">
-               <Link to={process.env.PUBLIC_URL + '/about'}>about</Link>
-             </li>
-             <li className="sub-menu">
                <Link to={process.env.PUBLIC_URL + '/portfolio'}>portfolio</Link>
              </li>
              <li className="sub-menu">

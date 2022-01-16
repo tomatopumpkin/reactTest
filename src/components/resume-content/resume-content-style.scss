@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+$yellow:rgb(255,230,0);     //js
+$orange:coral;              //html
+$blue:rgb(91,91,248);       //css
+$pink:rgb(247,156,171);     //scss
+$purple:rgb(135,89,179);    //PHP
+$lightblue:rgb(68,149,255);  //python
+$skyblue:skyblue;
+
+.resume-data-content{
+    position: relative;
+    display: block;
+    padding: 10px 0 30px;
+
+    .resume-data-title{
+        h1{
+            font-family:Cormorant Garamond;
+            font-weight: 450;
+            font-size: 28px;
+            margin: 0;
+            padding-bottom: 15px;
+        }
+
+    }
+
+    .resume-data-info{
+        display: block;
+        padding: 5px 0 10px;
+
+        .resume-info{
+            display: block;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+    }
+}
+
+.resume-skill-content{
+    position: relative;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+    border: 1px solid rgb(206, 206, 206);
+
+    .resume-skill-icon{
+        font-size: 65px;
+
+        .icon-yellow{
+            color: $yellow;
+        }
+        
+        .icon-orange{
+            color: $orange;
+        }
+
+        .icon-blue{
+            color: $blue;
+        }
+
+        .icon-pink{
+            color: $pink;
+        }
+
+        .icon-purple{
+            color: $purple;
+        }
+
+        .icon-lightblue{
+            color: $lightblue;
+        }
+
+        .icon-skyblue{
+            color: $skyblue;
+        }
+    }
+
+    .resume-skill-name{
+        h1{
+            font-size: 18px;
+        }
+    }
+}

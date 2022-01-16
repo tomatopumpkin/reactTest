@@ -1,0 +1,14 @@
+.resume-parallax {
+    position: relative;
+
+    .overflow-visible {
+        overflow: visibility !important ;
+        
+        img.profile-image{
+            width: 180px !important ;
+            height: 230px !important;
+            object-fit: cover;
+            top: 100px;
+        }
+    }
+}

@@ -6,7 +6,7 @@ import './home-parallax.style.scss';
 
 const HomeParallax = () => {
 
-    const img = "https://i3.fpic.cc/file/img-b1/2022/01/14/mountains-4356017_1920.jpg"
+    const img = "https://i3.fpic.cc/file/img-b1/2022/01/16/Light-Brown-and-Black-Simple-Light-Marketing-Portfolio--Resume-Website.jpg"
     return (
         
         <Parallax bgImage={img} strength={-100}>
