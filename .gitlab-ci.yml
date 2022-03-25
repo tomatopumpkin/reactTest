@@ -2,5 +2,5 @@ demo_job_1:
 	tags:
 	 - ci
 	script:
-	 - echo Hello wimonsiri
+	 - echo Hello wimonsiri!!
 		
