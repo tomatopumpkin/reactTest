@@ -6,4 +6,3 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/ติดต่อสอบถามเพิ่มเติม/i);
   expect(linkElement).toBeInTheDocument();
 });
-
